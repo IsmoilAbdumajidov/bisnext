@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+  <!-- Main css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google fonst Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <section class="header text-white ">
+    <!-- menu start -->
+    <nav class="navbar navbar-expand-lg  menu">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="imgs/logo.png" alt="" />
+        </a>
+        <ion-icon class="fs-1 d-lg-none" name="menu-outline" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation"></ion-icon>
+        <div class="collapse navbar-collapse gap-5" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 col justify-content-end gap-lg-3 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> Home </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> Pages </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> Blog </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> Portfolio </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> Shop </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex gap-4" role="search">
+            <div class="position-relative">
+              <div class="count">0</div>
+              <ion-icon name="cart-outline" class="fs-4"></ion-icon>
+            </div>
+            <div>
+              <ion-icon name="search-outline" class="fs-4"></ion-icon>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- menu end -->
+
+    <!-- headerContent start -->
+    <div class="container my-5 py-5">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-8">
+          <h1 class="header_title">
+            <span class="color header_h1">Creative</span><br />
+            Agency Studio
+          </h1>
+        </div>
+        <div class="col-12 col-lg-4">
+          <img class="img-fluid w-100" src="imgs/headerimg.png" alt="" />
+          <ion-icon class="arrow display-1 fw-bold color" name="arrow-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-between">
+        <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <button class="button mt-4">
+            <span class="btn_text">Get in Touch</span>
+          </button>
+        </div>
+        <div class="col-12 col-lg-2 mt-4 mt-lg-0">
+          <div>
+            <h1 class="display-4 fw-semibold mb-0">17K+</h1>
+            <p>Projects completed</p>
+          </div>
+          <div>
+            <h1 class="display-4 fw-semibold mb-0 mt-4">17K+</h1>
+            <p>Projects completed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- headerContent end -->
+  </section>
+  <!-- agency start -->
+
+  <section class="agency my-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-md-flex gap-4 justify-content-center  col-xl-6 mt-3 mt-lg-0">
+          <div class="mt-5 mt-md-0">
+            <img class="img-fluid w-100" src="imgs/im.png" alt="">
+            <img class="d-none d-md-block shape img-fluid " src="imgs/shape1.png" alt="">
+          </div>
+          <div class="mt-5 mt-md-0">
+            <img class="d-none d-md-block shape img-fluid " src="imgs/shape.png" alt="">
+            <img class="img-fluid w-100" src="imgs/image.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-xl-6 mt-3 mt-lg-0 ps-xl-5">
+          <p class="text-uppercase  text-sm second_color">ABOUT US</p>
+          <h1 class="text-white">We Are Certified Agency Financial Design</h1>
+          <p class="text-aaa my-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+          </p>
+          <div
+            class="card p-4 mt-3 d-flex gap-4 flex-column flex-lg-row justify-content-center justify-content-lg-start ">
+            <div>
+              <div class="icon_agency">
+                <ion-icon name="bookmark-outline"></ion-icon>
+              </div>
+            </div>
+            <div>
+              <h5>Acquisitions Finance Consulting</h5>
+              <p class="text-aaa mb-0 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore.</p>
+            </div>
+          </div>
+          <div
+            class="card p-4 mt-3 d-flex gap-4 flex-column flex-lg-row justify-content-center justify-content-lg-start">
+            <div>
+              <div class="icon_agency">
+                <ion-icon name="bulb-outline"></ion-icon>
+              </div>
+            </div>
+            <div>
+              <h5>Private Placement Consulting</h5>
+              <p class="text-aaa mb-0 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- agency end -->
+  <!-- features start -->
+  <section class="features my-5 py-5">
+    <div class="container">
+      <div class="row position-relative ">
+        <img class="bottom_features" src="imgs/icon_shape.png" alt="">
+        <div class="col-12 col-xl-6 mt-3 mt-xl-0 pe-xl-5 position-relative ">
+          <img class="shape_features d-none d-xl-block " src="imgs/shape (1).png" alt="">
+          <p class="text-uppercase  text-sm second_color">FEATURES</p>
+          <h1 class="text-white">Giving Your Business Some Great Ideas</h1>
+          <p class="text-aaa mt-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam
+          </p>
+          <button class="button mt-4">
+            <span class="btn_text">MORE SERVICES</span>
+          </button>
+        </div>
+        <div class="col-12 col-xl-6 mt-5 mt-xl-0 ps-xl-5">
+          <div class="row">
+            <div class="col-12 col-xl-6 mt-xl-5 pt-xl-5">
+              <div class="card bg-transparent ">
+                <img class="img-fluid w-100" src="./imgs/image 6.png" alt="">
+                <div class="card-body">
+                  <h5 class="text-white">UX Experience </h5>
+                  <p class="text-aaa">Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+              <div class="card bg-transparent ">
+                <div class="position-relative ">
+                  <div class="d-flex justify-content-center align-items-center  play bg">
+                    <ion-icon name="play"></ion-icon>
+                  </div>
+                  <img class="img-fluid w-100" src="./imgs/img.png" alt="">
+                </div>
+                <div class="card-body">
+                  <h5 class="text-white">Digital Marketing </h5>
+                  <p class="text-aaa">Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xl-6 mt-3">
+              <div class="card bg-transparent ">
+                <div class="position-relative ">
+                  <div class="d-flex justify-content-center align-items-center  icon_arrow bg">
+                    <ion-icon class="arrow" name="arrow-forward"></ion-icon>
+                  </div>
+                  <img class="img-fluid w-100" src="./imgs/image 18.png" alt="">
+                </div>
+                <div class="card-body">
+                  <h5 class="text-white">Web Development</h5>
+                  <p class="text-aaa">Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+              <div class="card bg-transparent ">
+                <img class="img-fluid w-100" src="./imgs/image2.png" alt="">
+                <div class="card-body">
+                  <h5 class="text-white">Product Design</h5>
+                  <p class="text-aaa">Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 pt-3">
+        <div class="col-12 col-sm-6 col-lg-3 p-xl-4 text-center ">
+          <div class="position-relative">
+            <h1 class="strokeme display-2 fw-medium ">12K+</h1>
+            <p>Project Complete</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-xl-4 text-center ">
+          <div class="position-relative">
+            <h1 class="strokeme display-2 fw-medium ">7K+</h1>
+            <p>Happy Client</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-xl-4 text-center ">
+          <div class="position-relative">
+            <h1 class="strokeme display-2 fw-medium ">10+</h1>
+            <p>Years Experience</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-xl-4 text-center ">
+          <div class="position-relative">
+            <h1 class="strokeme display-2 fw-medium ">270+</h1>
+            <p>Win Awards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- features end -->
+
+  <!-- overlay-img start -->
+  <section class="my-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 px-0">
+          <div class="position-relative overlay_card">
+            <img class="img-fluid w-100" src="imgs/microsoft-365-7mBictB_urk-unsplash 1.png" alt="">
+            <div class="overlay d-flex flex-column">
+              <div class="overlay_div mt-auto ">
+                <p class="text-uppercase mb-0 text-sm color">BUSINES, IDEA</p>
+                <h1>Super Experience</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 px-0">
+          <div class="position-relative overlay_card">
+            <img class="img-fluid w-100" src="imgs/image3.png" alt="">
+            <div class="overlay d-flex flex-column">
+              <div class="overlay_div mt-auto ">
+                <p class="text-uppercase mb-0 text-sm color">BUSINES, IDEA</p>
+                <h1>Super Experience</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 px-0">
+          <div class="position-relative overlay_card">
+            <img class="img-fluid w-100" src="imgs/image4.png" alt="">
+            <div class="overlay d-flex flex-column">
+              <div class="overlay_div mt-auto ">
+                <p class="text-uppercase mb-0 text-sm color">BUSINES, IDEA</p>
+                <h1>Super Experience</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 px-0">
+          <div class="position-relative overlay_card">
+            <img class="img-fluid w-100" src="imgs/jason-goodman-bzqU01v-G54-unsplash 1.png" alt="">
+            <div class="overlay d-flex flex-column">
+              <div class="overlay_div mt-auto ">
+                <p class="text-uppercase mb-0 text-sm color">BUSINES, IDEA</p>
+                <h1>Super Experience</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 px-0">
+          <div class="position-relative overlay_card">
+            <img class="img-fluid w-100" src="imgs/image5.png" alt="">
+            <div class="overlay d-flex flex-column">
+              <div class="overlay_div mt-auto ">
+                <p class="text-uppercase mb-0 text-sm color">BUSINES, IDEA</p>
+                <h1>Super Experience</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 px-0">
+          <div class="position-relative overlay_card">
+            <img class="img-fluid w-100" src="imgs/sai-kiran-anagani-5Ntkpxqt54Y-unsplash 1.png" alt="">
+            <div class="overlay d-flex flex-column">
+              <div class="overlay_div mt-auto ">
+                <p class="text-uppercase mb-0 text-sm color">BUSINES, IDEA</p>
+                <h1>Super Experience</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- overlay-img end -->
+  <!-- busines brands start -->
+  <section class="my-5 py-5">
+    <div class="container">
+      <p class="text-uppercase  text-sm second_color text-center">OVER 2K+ SOFTWARE BUSINESSE GROWING WITH OUR BUSINESS
+      </p>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-xl-2 text-center mt-5"><img class="img-fluid" src="imgs/1.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-xl-2 text-center mt-5"><img class="img-fluid" src="imgs/2.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-xl-2 text-center mt-5"><img class="img-fluid" src="imgs/3.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-xl-2 text-center mt-5"><img class="img-fluid" src="imgs/4.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-xl-2 text-center mt-5"><img class="img-fluid" src="imgs/5.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-xl-2 text-center mt-5"><img class="img-fluid" src="imgs/6.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- busines brands end -->
+  <!-- contact start -->
+  <section class="my-5 py-5">
+    <div class="container">
+      <div class="row justify-content-center ">
+        <div class="col-12 col-md-8 col-lg-7 text-center ">
+          <p class="text-uppercase mb-5 text-sm second_color">Have you project in mind?</p>
+          <h1 class="text-white">Let's Make Something Great Together!</h1>
+          <div class="contact_circle mt-5 text-center mx-auto ">
+            <p class="text-sm">CONTACT WITH US</p>
+            <div>
+              <ion-icon class="arrow fw-bold fs-4 text-white " name="arrow-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact end -->
+  <!-- experince start -->
+  <section class="my-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <p class="text-uppercase  text-sm second_color">DIGITAL EXPRIENCE</p>
+          <h1 class="text-white">Our Potential Marking Consulting Agency</h1>
+          <p class="text-aaa my-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam consectetur adipiscing elit.
+          </p>
+          <div class="d-flex flex-column gap-3">
+            <div>
+              <div class="d-flex mb-0 justify-content-between ">
+                <h6>Website & Mobile Development</h6>
+                <p class="text-aaa mb-0">78%</p>
+              </div>
+              <div class="bg2">
+                <div class="bg py-1" style="width: 78%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex mb-0 justify-content-between ">
+                <h6>Desktop App Development</h6>
+                <p class="text-aaa mb-0">95%</p>
+              </div>
+              <div class="bg2">
+                <div class="bg py-1" style="width: 95%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 pb-4">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item bg2 border-bottom-0 mt-3">
+              <h2 class="accordion-header py-2">
+                <button class="accordion-button collapsed bg2 text-white " type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  How can we help your business?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the first item's accordion body.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg2 border-bottom-0 mt-3">
+              <h2 class="accordion-header py-2">
+                <button class="accordion-button collapsed bg2 text-white" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What are the advantages of Bisnext
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
+                  being filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg2 border-bottom-0 mt-3">
+              <h2 class="accordion-header py-2">
+                <button class="accordion-button collapsed bg2 text-white" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Let’s find an office near you?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 d-sm-flex gap-4">
+            <div>
+              <h1 class="fw-semibold mb-0 display-4">12542+</h1>
+              <p class="text-aaa">Monthly Usual Users</p>
+            </div>
+            <p class="text-aaa">
+              But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and
+              I will give.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- experince end -->
+  <!-- footer start -->
+  <footer class="mt-5 pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt="" />
+          </a>
+          <p class="text-aaa mt-3">
+            Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua tepo the.
+          </p>
+          <button class="bg border-0 p-2 px-3">
+            <a href="tel:+998994776518">
+              <ion-icon name="call-outline"></ion-icon>
+              <span>+(998) 99 477 65 18</span>
+            </a>
+          </button>
+        </div>
+        <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+          <h4>Quick Links</h4>
+          <div class="d-sm-flex">
+            <ul class="d-flex flex-column gap-2">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Pricing Table</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Meet Our Team</a></li>
+              <li><a href="#">Latest News</a></li>
+            </ul>
+            <ul class="d-flex flex-column gap-2">
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">FAQ's</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Customer Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+          <div class="d-flex flex-wrap gap-4">
+            <div class="icon_foter">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </div>
+            <div class="icon_foter">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+            <div class="icon_foter">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </div>
+            <div class="icon_foter">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+          </div>
+          <div>
+            <h1>
+              Let's work together.
+            </h1>
+            <p class="text-aaa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet pariatur sed
+              sint ab blanditiis maiores nisi, optio modi ad.</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 py-4 footer_bottom d-sm-flex align-items-center  justify-content-between ">
+        <div class="text-aaa">
+          Copyright © 2024 Abdumajidov Ismoil. All Rights Reserved
+        </div>
+        <div class="d-flex gap-5 align-items-center">
+          <div class="text-aaa">Terms of Use</div>
+          <div class="text-aaa">Privacy Policy</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <!-- icons cdn -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- icons cdn -->
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

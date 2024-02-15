@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    color: #fff;
+}
+
+body {
+    background: url("imgs/BACKGROUND.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+.strokeme {
+    color: #181818;
+    text-shadow:
+        -1px -1px 0 rgba(255, 255, 255, 0.5),
+        1px -1px 0 rgba(255, 255, 255, 0.5),
+        -1px 1px 0 rgba(255, 255, 255, 0.5),
+        1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+ul {
+    list-style: none;
+}
+
+.header_h1 {
+    font-size: 130px;
+}
+
+.header_title {
+    font-size: 80px;
+    color: #fff;
+}
+
+.arrow {
+    transform: rotate(-45deg);
+}
+
+.header {
+    background: url("imgs/back.png") no-repeat center;
+    background-size: cover;
+    padding-top: 65px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
+
+.text-aaa {
+    color: #aaa;
+}
+
+.menu a {
+    color: #fff;
+    transition: all .3s linear;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.color {
+    color: #FF7425 !important;
+}
+
+.bg {
+    background: #FF7425 !important;
+}
+
+.bg2 {
+    background: #222 !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #FF7425 !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #FF7425 !important;
+}
+
+.count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #FF7425;
+    width: 13px;
+    height: 13px;
+    font-size: 13px;
+    font-weight: 200;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.button {
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 3px;
+    border: none;
+    position: relative;
+    width: max-content;
+    height: max-content;
+    /* z-index: 2; */
+}
+
+.shape {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+.button::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: #FF7425;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -15px;
+    z-index: 1;
+}
+
+.btn_text {
+    position: relative;
+    z-index: 10;
+}
+
+.second_color {
+    color: #888;
+}
+
+.text-sm {
+    font-size: 16px;
+}
+
+.agency .card {
+    background: #222;
+}
+
+.icon_agency {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.icon_agency ion-icon {
+    color: #FF7425;
+    font-size: 37px;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+
+}
+
+.play {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.icon_arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.shape_features {
+    width: max-content;
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+
+.bottom_features {
+    width: max-content;
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+}
+
+.overlay_div {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 100%; */
+    z-index: 10;
+    width: max-content;
+}
+
+.overlay_card:hover .overlay_div {
+    opacity: 1;
+    visibility: visible;
+    height: 100px;
+}
+
+.overlay_card:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+footer{
+    background: rgba(17, 17, 17, 1);
+}
+footer ul li a {
+    color: #aaa;
+
+}
+.footer_bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.icon_foter{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #FF7425;
+    font-size: 25px;
+}
+@media screen and (max-width:992px) {
+    .header_h1 {
+        font-size: 120px;
+    }
+
+    .header_title {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header_h1 {
+        font-size: 100px;
+    }
+
+    .header_title {
+        font-size: 60px;
+    }
+}
+
+.contact_circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:676px) {
+    .header_h1 {
+        font-size: 70px;
+    }
+
+    .header_title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .header_h1 {
+        font-size: 45px;
+    }
+
+    .contact_circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .text-sm {
+        font-size: 13px;
+    }
+}
